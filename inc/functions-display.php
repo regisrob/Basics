@@ -37,7 +37,7 @@ function basics_content_nav($nav_id, $nav_class) {
 }
 endif;
 
-/*
+/**
  * Print the <title> tag based on what is being viewed.
  */
 if ( ! function_exists( 'basics_title' ) ) :
@@ -52,7 +52,7 @@ function basics_title() {
 }
 endif;
 
-/*
+/**
  * Print the <meta description> of the web page regarding the context
  */
 if ( ! function_exists( 'basics_description' ) ) :
@@ -80,7 +80,8 @@ function basics_description() {
 	return $description;
 }
 endif;
-/*
+
+/**
  * Return the section heading (title and description) regarding the context.
  */
 if ( ! function_exists( 'basics_section_heading' ) ) :
@@ -156,7 +157,7 @@ function basics_section_heading() {
 }
 endif;
 
-/*
+/**
  * Print the post meta in the post's header
  */
 if ( ! function_exists( 'basics_posted_on' ) ) :
@@ -179,7 +180,7 @@ function basics_posted_on() {
 }
 endif;
 
-/*
+/**
  * Print the post meta in the post's footer
  */
 if ( ! function_exists( 'basics_posted_in' ) ) :
