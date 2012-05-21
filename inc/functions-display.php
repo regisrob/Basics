@@ -3,7 +3,7 @@
 @package WordPress
 @subpackage Basics
 @author Bruno Bichet <bruno.bichet@gmail.com>
-@version 0.2.8
+@version 0.3.3
 @since Version 0.2.7
 For Those About to Rock. Fire!
 */
@@ -19,7 +19,6 @@ basics_posted_in()			Print the post meta in the post's footer
 basics_favicons()			Print Meta tags for favicon
 basics_extra_head()			Print extra meta tags into <head>
 basics_i_love_wordpress()	Print WordPress icon to the footer
-basics_search_autofocus()	Print autofocus attribute to search form when is_search()
 */
 
 /**
@@ -256,17 +255,5 @@ function basics_i_love_wordpress() {
 <img id="wpjt" alt="Logo WordPress je thème" src="<?php echo get_template_directory_uri(); ?>/img/icons/wordpress-je-theme.png" />
 <?php  
 }    
-endif;
-
-/**
- * Print autofocus attribute to search form when is_search()
- */
-if ( ! function_exists( 'basics_search_autofocus' ) ):	
-function basics_search_autofocus() {
-	global $wp_query;
-	if ( is_search() ) {
-		echo 'autofocus';
-	}
-} 
 endif;
 ?>
