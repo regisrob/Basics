@@ -2,6 +2,11 @@
 
 For Those About to Rock... Fire!
 
+## Release 0.3.3 - 21/05/2012
+
+1. Remove function *basics_search_autofocus()* set in *inc/functions-filter-action.php* since the previous release **[inc/functions-display.php]**
+2. Update *?v=0.3.3* for stylesheet link **[header.php]**
+
 ## Release 0.3.2 - 20/05/2012
 
 1. Update **[css/normalize.css]** **[css/tool.css]** and **[css/author.css]** from new version of HTML5 Boilerplate 3.0.2
