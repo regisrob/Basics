@@ -68,7 +68,7 @@ function basics_comments( $comment, $args, $depth ) {
 }
 endif; // ends check for basics_comments()
 
-/*
+/**
  * Customise the comments fields with HTML5 form elements
  */
 add_filter('comment_form_defaults', 'basics_respond');
