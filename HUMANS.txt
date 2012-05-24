@@ -7,6 +7,7 @@ The humans responsible & colophon
  * WHAT 
  */
 Blank theme for WordPress site developpment:
+
 Standards 			HTML5, CSS3, Microformats, WAI-ARIA Landmarks,
 Components 			Modernizr, jQuery, dd_belatedpng, 
 Software 			Notepad++
@@ -16,7 +17,7 @@ Software 			Notepad++
  */
 Designer web		Bruno Bichet
 Site				http://4design.tl
-Twitter		 		@br1o
+Twitter			 	@br1o
 Location			Lyon, France
 
 /**
@@ -30,24 +31,3 @@ Toolbox 1.1			http://wordpress.org/extend/themes/toolbox
 TwentyTen Five		http://www.twentytenfive.com
 TwentyTen			http://wordpress.org/extend/themes/twentyten
 HTML5Reset			https://github.com/murtaugh/HTML5-Reset-Wordpress-Theme
-
-
-  
-
-		  ****              ***
-		  **********    *******
-  ****     *********     *******     ***
- ******     *******      *********   ****
- *******    ******        *******   *****
- *******     *****  **     *****   ******
-  *******     ***  ****     ***   *******
-  ********     *   *****    ***  *******
-   ********       ******        *******
-	*******      ********      *******
-	  ******    **********    ******
-		**************************
-		 *********************
-			****************
-			   ***********
-				 ******
-					*
