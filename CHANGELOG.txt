@@ -2,7 +2,7 @@
 
 For Those About to Rock... Fire!
 
-## Release 0.3.3 - 26/05/2012 (test2)
+## Release 0.3.3 - 26/05/2012
 
 1. Remove function *basics_search_autofocus()* set in *inc/functions-filter-action.php* since the previous release **[inc/functions-display.php]**
 2. Update *?v=0.3.3* for stylesheet link **[header.php]**
